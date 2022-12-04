@@ -27,28 +27,39 @@ Peak runs for men are 5 minutes and for women are 6 minutes. For the unknown gen
 [link to dashboard] https://public.tableau.com/app/profile/fernanda.reckziegel/viz/Length_Time_Gender/Length_Time_Gender?publish=yes
 
 In the heatmap below, we compare the start time of the rides with the days of the week for the stop times.  
-The busiest time for rides is between 7a.m.-10a.m. and 4p.m.- 8p.m. on weekdays and between 10a.m.- 8p.m. on weekends. Peak usage occurs on Thursdays between 5p.m.-7p.m. The least used quadrant occurs on weekdays between 1a.m.-5am and weekdays 3a.m.-6a.m.
+The busiest time for rides is between 7a.m.-10a.m. and 4p.m.- 8p.m. on weekdays and between 10a.m.- 8p.m. on weekends.  
+Peak usage occurs on Thursdays between 5p.m.-7p.m. The least used quadrant occurs on weekdays between 1a.m.-5am and weekdays 3a.m.-6a.m.
 ![Trips_Weekday](https://user-images.githubusercontent.com/111664141/205515539-a1d8c8a8-0539-46bb-9a2a-836d2a8f9974.png)
 
 [link to dashboard] https://public.tableau.com/app/profile/fernanda.reckziegel/viz/Trips_Weekday/Trips_Weekday?publish=yes
 
-Broken down the heatmap above by gender, we can see that basically the hourly peaks above refer to the amount of men and women, with a significant amount of the male gender. If we were to analyze unknown genres, we noticed that they are mostly used on weekends between 10a.m. and 7p.m.
+Broken down the heatmap above by gender, we can see that basically the hourly peaks above refer to the amount of men and women, with a significant amount of the male gender. If we were to analyze unknown gender, we noticed that they are mostly used on weekends between 10a.m. and 7p.m.
+![Trips_Weekday_Gender](https://user-images.githubusercontent.com/111664141/205515701-f11f2b61-90da-4a47-b8df-01687c82acc0.png)
 
-![https://public.tableau.com/app/profile/fernanda.reckziegel/viz/Trips_Weekday_Gender/Trips_Weekday_Gender?publish=yes]
+[link to dashboard] https://public.tableau.com/app/profile/fernanda.reckziegel/viz/Trips_Weekday_Gender/Trips_Weekday_Gender?publish=yes
 
-Still using the heatmap, we included the Usertype variable to identify the type of user by day of the week. In the heatmap below, we see that the highest usage by short-time customers occurs on Saturdays by gender unknown while annual subscribers are mostly male with their maximum usage on Thursdays and Fridays.
-![https://public.tableau.com/app/profile/fernanda.reckziegel/viz/Trips_Gender_Type/Trips_Gender_Type?publish=yes]
+Still using the heatmap, we included the Usertype variable to identify the type of user by day of the week.  
+In the heatmap below, we see that the highest usage by short-time customers occurs on Saturdays by gender unknown while annual subscribers are mostly male with their maximum usage on Thursdays and Fridays.
+![Trips_Gender_Type](https://user-images.githubusercontent.com/111664141/205515801-b2b47633-d933-4203-a22a-f5fb9185da7d.png)
 
-In this last map, we analyze the start stations of the rides, filtering by gender, days of the week and start time. Without performing any filter, we verified that the most used stations for the beginning of the rides are those located in Midtown Manhattan, the busiest and most popular tourist destination in New York. If we filter by usage at the peak usage time of the week (Thursday at 5pm), the highest usage continues to be in this area. We can also visualize that the stations, the farther away from this region, the smaller the use for the beginning of the rides.
-![https://public.tableau.com/app/profile/fernanda.reckziegel/viz/Station_Gender_Weekdays/Station_Gender_Weekdays?publish=yes]
+[link to dashboard] https://public.tableau.com/app/profile/fernanda.reckziegel/viz/Trips_Gender_Type/Trips_Gender_Type?publish=yes
+
+In this last map, we analyze the start stations of the rides, filtering by gender, days of the week and start time.  
+Without performing any filter, we verified that the most used stations for the beginning of the rides are those located in Midtown Manhattan, the busiest and most popular tourist destination in New York.  
+If we filter by usage at the peak usage time of the week (Thursday at 5pm), the highest usage continues to be in this area. We can also visualize that the stations, the farther away from this region, the smaller the use for the star of the rides.
+![Station_Gender_Weekdays](https://user-images.githubusercontent.com/111664141/205515892-b6fe8c0e-c9da-4a09-8e07-4ce62bacd074.png)
+
+[link to dashboard] https://public.tableau.com/app/profile/fernanda.reckziegel/viz/Station_Gender_Weekdays/Station_Gender_Weekdays?publish=yes
 
 
 ## Summary:
-Analyzing all the charts and maps above, we find that the greatest use of CitiBike in New York is by male people, annual subscribers with the highest concentration on Thursdays and Fridays between 5p.m. and 7p.m. We can also see that the most used region for the beginning of the rides is in Midtown Manhattan, the busiest and most popular region of the city, generally lasting no more than 20 minutes.
-For a future analysis, it remains as a proposal to analyze in which region the final stations are located.
-Below is the Tableau Story with all the charts and maps presented above.
-![https://public.tableau.com/app/profile/fernanda.reckziegel/viz/Rides_16701050125100/Rides?publish=yes]
-It would also be interesting to cross the information on the beginning and end of the rides, to verify if there is a pattern of use and if it is possible to link this use by workers or tourists.
+Analyzing all the charts and maps above, we find that the greatest use of CitiBike in New York is by male people, annual subscribers with the highest concentration on Thursdays and Fridays between 5p.m. and 7p.m.  
+We can also see that the most used region for the star of the rides is in Midtown Manhattan, the busiest and most popular region of the city, generally lasting no more than 20 minutes.
+For a future analysis, it remains as a proposal to analyze in which region the end stations are located.  
+It would also be interesting to cross the information on the star and end stations of the rides to verify if there is a pattern of use and if it is possible to link this use by workers or tourists.  
+In this link (https://public.tableau.com/app/profile/fernanda.reckziegel/viz/Rides_16701050125100/Rides?publish=yes) you can find the Tableau Story with all the charts and maps presented above.
+
+
 
 
 

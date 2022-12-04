@@ -1,26 +1,36 @@
-# Pewlett-Hackard-Analysis
+# Bike-Sharing
+
 
 ## Overview of the analysis:
 The objective of this project is to analyze data from CitiBike in New York to verify the feasibility of creating a bike-sharing system in Des Moines, IA.
 
 ## Results:
-For this analysis, data from the Citi Bike program in New York City (https://ride.citibikenyc.com/system-data) were used. 
-We use data from August/2019 because there is likely more traffic during the summer months.
-Our first analysis was on the general numbers of the database, where we verified that the total number of rides was 2,344,224, where 65% of these numbers were male users, 25% female and 10% unknown.
-Looking at the type of user of the rides, 1,900,359 are annual subscribers, mostly male (58% of all rides held on 08/2019). Of the rides performed by women, the majority were also performed by annual subscribers. For those who declared themselves unknown, short-term customers prevailed.
+For this analysis, data from the Citi Bike program in New York City (https://ride.citibikenyc.com/system-data) were used.  
+We use data from August/2019 because there is likely more traffic during the summer months.  
 
-![https://public.tableau.com/app/profile/fernanda.reckziegel/viz/Number_of_Rides/Numbers_Rides?publish=yes]
+Our first analysis was on the general numbers of the database, where we verified that the total number of rides was 2,344,224, where 65% of these numbers were male users, 25% female and 10% unknown.  
+Looking at the type of user of the rides, 1,900,359 are annual subscribers, mostly male (58% of all rides held on 08/2019). Of the rides performed by women, the majority were also performed by annual subscribers. For those who declared themselves unknown, short-term customers prevailed.  
+
+![Numbers_Rides](https://user-images.githubusercontent.com/111664141/205515101-2930cc7e-2f4c-47a6-86ed-0c6b640d2fa5.png)
+
+[link to dashboard] https://public.tableau.com/app/profile/fernanda.reckziegel/viz/Number_of_Rides/Numbers_Rides?publish=yes
 
 Analyzing the duration of the trips, we can see in the graph below that the absolute majority have a maximum duration of 20 minutes, with their peak being trips of 5 minutes.
+![Length_Time](https://user-images.githubusercontent.com/111664141/205515261-b762e83c-08ea-4dc9-a245-58e791a78eb6.png)
 
-![https://public.tableau.com/app/profile/fernanda.reckziegel/viz/Length_of_Time/Length_Time?publish=yes]
+[link to dashboard] https://public.tableau.com/app/profile/fernanda.reckziegel/viz/Length_of_Time/Length_Time?publish=yes
 
-Analyzing the duration of the trips by gender, we can see that there was not much difference in the duration of the rides in the graph above. Peak runs for men are 5 minutes and for women are 6 minutes. For the unknown gender, we can analyze that there is no prominent duration time, with a homogeneous trend occurring up to 30 minutes.
-! [https://public.tableau.com/app/profile/fernanda.reckziegel/viz/Length_Time_Gender/Length_Time_Gender?publish=yes]
+Analyzing the duration of the trips by gender, we can see that there was not much difference in the duration of the rides in the graph above.  
+Peak runs for men are 5 minutes and for women are 6 minutes. For the unknown gender, we can analyze that there is no prominent duration time, with a homogeneous trend occurring up to 30 minutes.  
+![Length_Time_Gender](https://user-images.githubusercontent.com/111664141/205515414-97c9342b-c7ca-4179-ba7d-27d2422330f9.png)
 
-In the heatmap below, we compare the start time of the rides with the days of the week for the stop times. The busiest time for rides is between 7a.m.-10a.m. and 4p.m.- 8p.m. on weekdays and between 10a.m.- 8p.m. on weekends. Peak usage occurs on Thursdays between 5p.m.-7p.m. The least used quadrant occurs on weekdays between 1a.m.-5am and weekdays 3a.m.-6a.m.
+[link to dashboard] https://public.tableau.com/app/profile/fernanda.reckziegel/viz/Length_Time_Gender/Length_Time_Gender?publish=yes
 
-![https://public.tableau.com/app/profile/fernanda.reckziegel/viz/Trips_Weekday/Trips_Weekday?publish=yes]
+In the heatmap below, we compare the start time of the rides with the days of the week for the stop times.  
+The busiest time for rides is between 7a.m.-10a.m. and 4p.m.- 8p.m. on weekdays and between 10a.m.- 8p.m. on weekends. Peak usage occurs on Thursdays between 5p.m.-7p.m. The least used quadrant occurs on weekdays between 1a.m.-5am and weekdays 3a.m.-6a.m.
+![Trips_Weekday](https://user-images.githubusercontent.com/111664141/205515539-a1d8c8a8-0539-46bb-9a2a-836d2a8f9974.png)
+
+[link to dashboard] https://public.tableau.com/app/profile/fernanda.reckziegel/viz/Trips_Weekday/Trips_Weekday?publish=yes
 
 Broken down the heatmap above by gender, we can see that basically the hourly peaks above refer to the amount of men and women, with a significant amount of the male gender. If we were to analyze unknown genres, we noticed that they are mostly used on weekends between 10a.m. and 7p.m.
 
